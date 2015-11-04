@@ -4,7 +4,7 @@ defmodule YoutubexParse.Mixfile do
   def project do
     [ app: :youtubex_parse,
       version: "0.0.1",
-      elixir: "~> 1.0.0",
+      elixir: "> 1.0.0",
       build_per_environment: false,
       description: description,
       package: package,
