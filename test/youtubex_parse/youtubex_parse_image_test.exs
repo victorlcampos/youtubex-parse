@@ -1,6 +1,5 @@
 defmodule YoutubexParse.Image.Test do
   use ExUnit.Case
-  import YoutubexParse.Image
 
   test "Youtube Parse should get high quality image with url with https" do
     assert YoutubexParse.Image.high_image("https://www.youtube.com/watch?v=GOr8skudD3U") == "//i.ytimg.com/vi_webp/GOr8skudD3U/hqdefault.webp"
