@@ -1,7 +1,5 @@
 defmodule YoutubexParse.Url.Test do
   use ExUnit.Case
-  import YoutubexParse.Url
-
 
   test "Youtube Parse should get embed url with https protocol" do
     assert YoutubexParse.Url.embed_url("https://www.youtube.com/watch?v=GOr8skudD3U") == "//www.youtube.com/embed/GOr8skudD3U"
